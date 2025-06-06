@@ -29,7 +29,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(CACHE_FOLDER, exist_ok=True)
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyBt2dOiqJkMCwbqpzRwb1pFKuePUAEl9Fk" # Please replace with your actual key if this is a placeholder
+GEMINI_API_KEY = "GEMINI_API_KEY" # Please replace with your actual key if this is a placeholder
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Cleanup configuration
